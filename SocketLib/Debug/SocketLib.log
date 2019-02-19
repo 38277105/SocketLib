@@ -1,0 +1,20 @@
+﻿生成启动时间为 2018/4/25/星期三 13:46:33。
+     1>项目“E:\zj\practice\SocketLib\SocketLib\SocketLib.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D SOCKETLIB_EXPORTS /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt tcpServer.cpp
+         tcpServer.cpp
+     1>e:\zj\practice\socketlib\socketlib\tcpserver.cpp(336): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         D:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\zj\practice\SocketLib\Debug\SocketLib.dll" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\zj\practice\SocketLib\Debug\SocketLib.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\zj\practice\SocketLib\Debug\SocketLib.lib" /MACHINE:X86 /DLL Debug\SocketInterface.obj
+         Debug\socketLib.obj
+         Debug\tcpClient.obj
+         Debug\tcpServer.obj
+         Debug\thrdMonitor.obj
+         Debug\thrdParam.obj
+         Debug\udp.obj
+         SocketLib.vcxproj -> E:\zj\practice\SocketLib\Debug\SocketLib.dll
+     1>已完成生成项目“E:\zj\practice\SocketLib\SocketLib\SocketLib.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.35
